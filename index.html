@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imagenes/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <!--Encabezado-->
+    <header>
+        <a>
+            <img src="/imagenes/logo.svg" alt="logo alura">
+        </a>
+    </header>
+
+    <!--Cuerpo-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="imagenes/aviso.svg" alt="imagen aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos
+                </p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="mensaje">
+            <textarea class="evaluar"></textarea>
+            <div class="mensaje-contenedor">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+        <p class="copyright">&copy copyrigth 2024 - Encriptador de texto - Desarrollado por Davo</p>
+        <a href="https://www.linkedin.com/in/david-puza-huamani-985312266/" rel="">
+            <img src="/imagenes/linkedin.svg" alt="logo Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/Mangho3"rel="">
+            <img src="imagenes/github.svg" alt="logo Github" class="git">
+        </a>
+    </footer>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
