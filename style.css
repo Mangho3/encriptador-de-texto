@@ -61,7 +61,7 @@ Cuerpo
 main{
     display: flex;
     flex-direction: row;
-    background: url(/imagenes/rick-and-morty.jpg) no-repeat center;
+    background: url(imagenes/rick-and-morty.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -165,7 +165,7 @@ main{
     flex-wrap: wrap;
     width: 270px;
     height: 580px;
-    background: url("/imagenes/mensaje.jpeg") center;  
+    background: url("imagenes/mensaje.jpeg") center;  
     background-size: contain; 
     box-shadow: 10px 24px 32px -8px var(--Gray);
     position: relative;
